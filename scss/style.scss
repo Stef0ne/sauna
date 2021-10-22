@@ -190,6 +190,129 @@ button{
   }
 }
 
+.hall{
+  padding-top: 70px;
+  &__content{
+    display: flex;
+    padding-top: 30px;
+  }
+  &__wrapper{
+    margin-left: 40px;
+  }
+  &__basic-items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-left: 35px;
+  }
+  &__basic-item{
+    width: 245px;
+  }
+  &__basic-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__basic-text{
+    font-style: 16px;
+    line-height: 22px;
+    color: #1E1E1E;
+    opacity: 0.6;
+  }
+  &__price{
+    margin-top: 20px;
+    padding: 15px 99px 32px 35px;
+    background: #fff;
+    border: 1px solid rgba(251, 142, 48, 0.4);
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+  }
+  &__price-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__price-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__price-item{
+    margin-top: 22px;
+    font-size: 16px;
+    line-height: 22px;
+    color: rgba(30, 30, 30, 0.6);
+    font-weight: 600;
+  }
+  &__price-date{
+    font-weight: 700;
+  }
+  &__price-money{
+    span{
+      color: #FB8E30;
+      font-weight: 700;
+    }
+  }
+  &__services{
+    margin-top: 30px;
+    padding: 35px 30px;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+  }
+  &__services-items{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+  }
+  &__services-item{
+    padding: 0 35px;
+    position: relative;
+  }
+  &__services-item--one::before{
+    position: absolute;
+    content: url(../images/services-1.svg);
+    margin-left: -35px;
+  }
+  &__services-item--two::before {
+    position: absolute;
+    content: url(../images/services-2.svg);
+    margin-left: -32px;
+  }
+  &__services-item--three::before {
+    position: absolute;
+    content: url(../images/services-3.svg);
+    margin-left: -35px;
+  }
+  &__services-item--four::before {
+    position: absolute;
+    content: url(../images/services-4.svg);
+    margin-left: -32px;
+  }
+  &__services-item--five::before {
+    position: absolute;
+    content: url(../images/services-5.svg);
+    margin-left: -35px;
+  }
+  &__service-title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__service-text{
+    font-style: 16px;
+    line-height: 22px;
+    color: #1E1E1E;
+    opacity: 0.6;
+  }
+}
 
 
 .footer{
