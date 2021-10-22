@@ -3,4 +3,6 @@
 
 // 	});
 // });
-
+$(function(){
+  $('.actual__slider').slick();
+});

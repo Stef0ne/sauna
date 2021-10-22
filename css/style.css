@@ -751,6 +751,19 @@ button {
   opacity: 0.6;
 }
 
+.actual {
+  padding-top: 70px;
+}
+
+.actual__title {
+  padding-bottom: 30px;
+}
+
+.actual__slider {
+  position: relative;
+  text-align: center;
+}
+
 .footer {
   background: #FFDA8F;
 }

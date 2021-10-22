@@ -314,6 +314,16 @@ button{
   }
 }
 
+.actual{
+  padding-top: 70px;
+  &__title{
+    padding-bottom: 30px;
+  }
+  &__slider{
+    position: relative;
+    text-align: center;
+  }
+}
 
 .footer{
   background: #FFDA8F;
