@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sauna</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/slick.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -19,38 +20,37 @@
       <div class="header__inner">
         <div class="header__logo">
           <img class="header__logo-img" src="images/header-logo.jpg" alt="logo">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  Залы
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  О нас
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  Отзывы
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="#">
-                Залы
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">
-                О нас
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">
-                Отзывы
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="#">
-                Контакты
-              </a>
-            </li>
-          </ul>
-        </nav>
         <div class="header__info">
           <div class="header__info-top">
-            <p class="heder__info-phone" href="#">
+            <a class="heder__info-phone" href="tel:+79115543444">
               <img class="header__info-img" src="images/phone.svg" alt="">
-              +7 (911) 554-...
-            </p>
-            <a class="header__info-link" href="">показать номер</a>
+              +7 (911) 554-34-44
+            </a>
           </div>
           <button class="header__info-btn">
             Забронировать
@@ -215,30 +215,95 @@
         <h1 class="actual__title">
           Актуальные скидки и акции
         </h1>
-        <div class="actual__content">
-          <a class="actual__content-link" href="#">
-            Спецпредложение
-          </a>
-          <h2 class="actual__content-title">
-            Получите скидку 10%
-          </h2>
-          <p class="actual__content-text">
-            в сауну “Финская”
-          </p>
-          <button class="actual__content-btn">
-            Подробнее
-          </button>
-        </div>
+
         <div class="actual__slider">
           <div class="actual__slider-item">
-            <img class="actual__slider-img" src="images/slider/slider-actual.jpg" alt="">
+            <div class="actual__content">
+              <a class="actual__content-link" href="#">
+                Спецпредложение
+              </a>
+              <h2 class="actual__content-title">
+                Получите скидку 10%
+              </h2>
+              <p class="actual__content-text">
+                в сауну “Финская”
+              </p>
+              <button class="actual__content-btn">
+                Подробнее
+              </button>
+            </div>
+            <img class="actual__slider-img" src="images/slider/slider-actual2.jpg" alt="">
           </div>
           <div class="actual__slider-item">
-            <img class="actual__slider-img" src="images/slider/slider-actual.jpg" alt="">
+            <div class="actual__content">
+              <a class="actual__content-link" href="#">
+                Спецпредложение
+              </a>
+              <h2 class="actual__content-title">
+                Получите скидку 10%
+              </h2>
+              <p class="actual__content-text">
+                в сауну “Финская”
+              </p>
+              <button class="actual__content-btn">
+                Подробнее
+              </button>
+            </div>
+            <img class="actual__slider-img" src="images/slider/slider-actual2.jpg" alt="">
           </div>
           <div class="actual__slider-item">
-            <img class="actual__slider-img" src="images/slider/slider-actual.jpg" alt="">
+            <div class="actual__content">
+              <a class="actual__content-link" href="#">
+                Спецпредложение
+              </a>
+              <h2 class="actual__content-title">
+                Получите скидку 10%
+              </h2>
+              <p class="actual__content-text">
+                в сауну “Финская”
+              </p>
+              <button class="actual__content-btn">
+                Подробнее
+              </button>
+            </div>
+            <img class="actual__slider-img" src="images/slider/slider-actual2.jpg" alt="">
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h1 class="about__title">
+          О нас
+        </h1>
+        <div class="about__wrapper">
+          <div class="about__content">
+            <p class="about__content-text">
+              Сауна "Багира" приглашает в гости не только гостей, но и жителей города насладиться парными процедурами
+              финской парной. Мы знает толк в банном отдыхе, поэтому все наши гости останутся довольны.приглашает в
+              гости всех любителей качественного отдыха, окунуться в мир релакса и тепла в комфортной уютной обстановке.
+              Наше заведение имеет все необходимое для полноценного отдыха.У нас можно не только отдохнуть большой
+              компанией, но и организовать любое праздничное событие. Корпоративы и дни рождения, встречи с деловыми
+              партнерами – у нас задуманное мероприятие пройдет на все 100%.
+            </p>
+            <img class="about__content-img" src="images/about-img.jpg" alt="images">
+          </div>
+          <form class="about__form">
+            <h3 class="about__form-title">
+              Заказать обратный звонок
+            </h3>
+            <div class="about__form-phone">
+              <input class="about__form-input" type="text" placeholder="Ваш телефон">
+              <button class="about__form-btn">Перезвоните мне</button>
+            </div>
+            <label class="about__form-label">
+              <input class="about__form-labelinput" type="checkbox">
+              <p><span>Согласен</span> на обработку и передачу персональных данных в соответствии с пользовательским
+                соглашением
+              </p>
+            </label>
+          </form>
         </div>
       </div>
     </section>
@@ -253,6 +318,7 @@
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="js/libs.min.js"></script>
+  <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 
