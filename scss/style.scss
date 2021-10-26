@@ -402,16 +402,22 @@ button{
     height: 210px;
     background-color: #FFDA8F;
     padding-left: 330px;
+    position: relative;
+  }
+  &__form::before{
+    content: '';
+    position: absolute;
+    background-image: url(../images/about-girl-img.png);
+    background-repeat: no-repeat;
+    width: 154px;
+    height: 266px;
+    bottom: 0;
+    left: 110px;
   }
   &__form-title{
     padding-top: 26px;
     font-size: 30px;
     line-height: 41px;
-    position: relative;
-  }
-  &__form-title::before {
-    position: absolute;
-    content: url(../images/about-girl-img.png);
   }
   &__form-phone{
     padding-top: 15px;
@@ -440,6 +446,92 @@ button{
     span{
       font-weight: 600;
     }
+  }
+}
+.reviews{
+  padding-top: 70px;
+  &__top{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__other{
+    font-size: 20px;
+    line-height: 27px;
+    text-decoration-line: underline;
+    margin-top: 7px;
+    margin-right: 71px;
+  }
+  &__slider{
+    margin-top: 30px;
+    padding: 0 71px;
+  }
+  &__slider-item{
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    margin: 8px;
+    padding: 35px 20px;
+    
+  }
+  &__slider-name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+  }
+  &__slider-text{
+    margin-top: 15px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  &__slider-date{
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.6);
+    bottom: 0;
+  }
+  &__btn{
+    margin-top: 40px;
+    padding: 19px 123px;
+    transform: translateX(128%, );
+    
+  }
+}
+.contacts{
+  padding: 70px 0;
+  &__inner{
+    margin-top: 30px;
+    padding: 49px 171px 49px 70px;
+    display: flex;
+    gap: 70px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06),
+    0px 2px 6px rgba(0, 0, 0, 0.04),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  }
+  &__address{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  &__address-text{
+    font-size: 20px;
+    line-height: 27px;
+    span{
+      font-weight: 600;
+    }
+  }
+  &__social{
+    margin-top: 36px;
+    display: flex;
+    gap: 30px;
+  }
+  &__btn{
+    margin-top: 36px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 19px 77px;
   }
 }
 
