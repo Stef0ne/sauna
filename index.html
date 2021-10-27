@@ -19,7 +19,9 @@
     <div class="container">
       <div class="header__inner">
         <div class="header__logo">
-          <img class="header__logo-img" src="images/header-logo.jpg" alt="logo">
+          <a class="header__logo-link" href="#">
+            <img class="header__logo-img" src="images/header-logo.jpg" alt="logo">
+          </a>
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__item">
@@ -108,14 +110,55 @@
           О зале
         </h1>
         <div class="hall__content">
+          <button class="hall__content-bnt">АКЦИЯ</button>
+          <button class="hall__content-bnt">Получите скидку</button>
           <div class="hall__slider">
-            <button class="hall__slider-bnt1">
-              АКЦИЯ
-            </button>
-            <button class="hall__slider-btn2">
-              Получите скидку
-            </button>
-            <img src="images/slider/sliderhall-1.jpg" alt="images">
+            <div class="hall__slider-for">
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-1.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-2.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-3.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-4.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-5.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-6.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__for-img" src="images/slider/sliderhall-7.jpg" alt="images">
+              </div>
+            </div>
+            <div class="hall__slider-nav">
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-1.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-2.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-3.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-4.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-5.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-6.jpg" alt="images">
+              </div>
+              <div class="hall__slider-item">
+                <img class="hall__nav-img" src="images/slider/sliderhall-7.jpg" alt="images">
+              </div>
+            </div>
           </div>
           <div class="hall__wrapper">
             <div class="hall__basic">
@@ -322,7 +365,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Светлана</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked disabled type="radio"
+                    name="reviews-rating" value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Сауна реально крутая и цена достаточно приемлимая для заведения такого
               комфорта</p>
@@ -331,7 +392,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Александр</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Были два раза, и оба раза остались очень довольны! Лучше сауны пока не
               встретили. Во-первых, частный дом, там, кроме вашей компании и самого хозяина (который всё объяснил и
@@ -342,7 +421,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Ольга</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Отдыхали в данной сауне 6.02.2021 , нас было 3 взрослых и 3 детей. Сауна
               очень понравилась!!!! Парилка супер, очень жарко, нагрелись от души!!!! Бассейн не очень большой, но нам
@@ -352,7 +449,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Светлана</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Сауна реально крутая и цена достаточно приемлимая для заведения такого
               комфорта</p>
@@ -361,7 +476,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Александр</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Были два раза, и оба раза остались очень довольны! Лучше сауны пока не
               встретили. Во-первых, частный дом, там, кроме вашей компании и самого хозяина (который всё объяснил и
@@ -372,7 +505,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Ольга</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Отдыхали в данной сауне 6.02.2021 , нас было 3 взрослых и 3 детей. Сауна
               очень понравилась!!!! Парилка супер, очень жарко, нагрелись от души!!!! Бассейн не очень большой, но нам
@@ -382,7 +533,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Светлана</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Сауна реально крутая и цена достаточно приемлимая для заведения такого
               комфорта</p>
@@ -391,7 +560,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Александр</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Были два раза, и оба раза остались очень довольны! Лучше сауны пока не
               встретили. Во-первых, частный дом, там, кроме вашей компании и самого хозяина (который всё объяснил и
@@ -402,7 +589,25 @@
           <div class="reviews__slider-item">
             <div class="reviews__slider-top">
               <div class="reviews__slider-name">Ольга</div>
-              <div class="rating"></div>
+              <div class="reviews-rating">
+                <div class="reviews-rating__items">
+                  <input class="reviews-rating__item" id="reviews-rating__5" checked type="radio" name="reviews-rating"
+                    value="5">
+                  <label class="reviews-rating__label" for="reviews-rating__5"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__4" type="radio" name="reviews-rating"
+                    value="4">
+                  <label class="reviews-rating__label" for="reviews-rating__4"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__3" type="radio" name="reviews-rating"
+                    value="3">
+                  <label class="reviews-rating__label" for="reviews-rating__3"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__2" type="radio" name="reviews-rating"
+                    value="2">
+                  <label class="reviews-rating__label" for="reviews-rating__2"></label>
+                  <input class="reviews-rating__item" id="reviews-rating__1" type="radio" name="reviews-rating"
+                    value="1">
+                  <label class="reviews-rating__label" for="reviews-rating__1"></label>
+                </div>
+              </div>
             </div>
             <p class="reviews__slider-text">Отдыхали в данной сауне 6.02.2021 , нас было 3 взрослых и 3 детей. Сауна
               очень понравилась!!!! Парилка супер, очень жарко, нагрелись от души!!!! Бассейн не очень большой, но нам
